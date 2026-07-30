@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Georgia', serif;
+  --color-warm-bg: #dcd7c9;
+  --color-ink: #282723;
+  --color-olive: #464632;
+  --color-olive-dark: #353526;
+  --color-terracotta: #be7054;
+  --color-soft-border: #cfc8b8;
+}
+
+body {
+  background-color: var(--color-warm-bg);
+  color: var(--color-ink);
+}
